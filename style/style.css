@@ -1,6 +1,7 @@
 body{
-    font-family: 'Roboto';
+    font-family: 'Raleway', sans-serif;
 }
+/* header */
 header{
     box-sizing: border-box;
     position: absolute;
@@ -9,6 +10,79 @@ header{
     left: 0px;
     top: 0px;
 }
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+.logo1_1{
+    width: 44px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo1_2{
+    width: 71px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;
+
+}
+.email{
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.tel{
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* main */
 .header-section{
     position: absolute;
     width: 1440px;
@@ -68,9 +142,7 @@ h1{
     gap: 8px;
     position: absolute;
     width: 264px;
-    height: 104px;
     left: 156px;
-    top: 792px;
 }
 .feature-2{
     display: flex;
@@ -80,9 +152,7 @@ h1{
     gap: 8px;
     position: absolute;
     width: 264px;
-    height: 104px;
     left: 444px;
-    top: 792px;
 }
 .feature-3{
     display: flex;
@@ -92,9 +162,7 @@ h1{
     gap: 8px;
     position: absolute;
     width: 264px;
-    height: 104px;
     left: 732px;
-    top: 792px;
 }
 .feature-4{
     display: flex;
@@ -104,7 +172,5 @@ h1{
     gap: 8px;
     position: absolute;
     width: 264px;
-    height: 104px;
     left: 1020px;
-    top: 792px;
 }
